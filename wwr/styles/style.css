@@ -221,16 +221,36 @@ main {
 /* Grand Canyon Page 2 */
 
 .canyon-grid {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
+    display: grid;
+    grid-template-columns: 1fr;
 }
-.canyon-tex {
-    grid-column: 2/3;
- }
-
 #canyon-img {
-    grid-column: 1/2;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1;
 }
+h5 {
+    font-size: 1em;
+    margin-top: 10px;
+    text-align: center;
+    padding: 35px;    
+
+ }
+ .canyon-title {
+    font-size: 2em;
+    margin-top: 10px;
+    color: #E1951B;
+    text-align: center;
+    padding: 35px;
+    z-index: -1;
+}
+h4 {
+    font-size: 1em;
+    margin-top: 10px;
+    text-align: center;
+    padding: 35px;
+}
+
 
 @media screen and (max-width: 900px) {
 
