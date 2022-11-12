@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color:#3e3e3e;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    font-size: 0;
+}
+footer img {
+    border-radius: 50%;
+}
+body, img {
+    width: 100%;
+}
